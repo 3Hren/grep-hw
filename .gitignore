@@ -1,3 +1,6 @@
+[Project]
+build/
+
 [QtCreator]
 *.pro.user
 *.txt.user
