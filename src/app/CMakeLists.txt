@@ -24,7 +24,7 @@ SET(BOOST_COMPONENTS
 SET(Boost_USE_MULTITHREADED ON)
 
 add_definitions(-std=c++11)
-add_definitions(-DGREP_DEBUG)
+#add_definitions(-DGREP_DEBUG)
 
 PROJECT(${PROJECT})
 
