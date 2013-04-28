@@ -1,0 +1,7 @@
+[QtCreator]
+*.pro.user
+*.txt.user
+
+[Common]
+*.o
+
