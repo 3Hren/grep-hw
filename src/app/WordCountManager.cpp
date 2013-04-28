@@ -9,7 +9,7 @@
 #include "PathWalker.h"
 #include "WordCounter.h"
 
-inline void print(std::ostream& s) {
+inline void print(std::ostream &s) {
     std::cout << s.rdbuf();
     std::cout.flush();
     s.clear();
@@ -102,8 +102,8 @@ void WordCountManager::showMostPopularWords(std::size_t number)
         return lhs->second > rhs->second;
     });
 
-    std::printf("%-10s %10s\n", "Word", "Count");
+    std::printf("%-20s %20s\n", "[Word]", "[Count]");
     for (auto it = wordIterators.cbegin(); it != middle; ++it) {
-        std::printf("%-10s %10zu\n", (*it)->first.c_str(), (*it)->second);
+        std::printf("%-20s %20zu\n", (*it)->first.c_str(), (*it)->second);
     }
 }
