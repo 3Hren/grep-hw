@@ -30,6 +30,16 @@ cmake ..
 make
 ~~~
 
+либо
+
+~~~
+git clone git://github.com/3Hren/grep-hw.git
+cd grep-gw
+mkdir build; cd build
+qmake-qt4 -r ..
+make
+~~~
+
 Использование:
 --------------
 ~~~
